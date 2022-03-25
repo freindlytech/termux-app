@@ -26,7 +26,7 @@ jobs:
       - name: Building Release and Debug apk
         uses: eskatos/gradle-command-action@v1
         with:
-          arguments: build
+          arguments: build --continue
           distributions-cache-enabled: true
           dependencies-cache-enabled: true
           configuration-cache-enabled: true
